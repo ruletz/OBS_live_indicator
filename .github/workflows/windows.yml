@@ -10,10 +10,10 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Install Qt
+      - name: Install Qt 5.15.2
         uses: jurplel/install-qt-action@v2
         with:
           version: '5.15.2'
@@ -36,7 +36,7 @@ jobs:
         run: cmake --build . --config Release --target obs-live-indicator
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: obs-live-indicator-windows
           path: obs-studio/build/obs-plugins/64bit/obs-live-indicator.dll
