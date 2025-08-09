@@ -13,12 +13,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Install Qt 5.15.2
-        uses: jurplel/install-qt-action@v2
-        with:
-          version: '5.15.2'
-          host: 'windows'
-          target: 'desktop'
+      - name: Install Qt 5.15.2 via Chocolatey
+        run: |
+          choco install qt5-qtbase --version=5.15.2 -y
+          refreshenv
 
       - name: Setup CMake
         uses: jwlawson/actions-setup-cmake@v1
