@@ -1,4 +1,4 @@
-<a href="https://ibb.co/nqzKrFQ2"><img src="https://i.ibb.co/rK4XkV5P/obs.jpg" alt="obs" border="0" /></a>
+<a href="https://ibb.co/3YmZ9rJy"><img src="https://i.ibb.co/5xhHgM7W/obs.jpg" alt="obs" border="0" /></a>
 
 # OBS Live Indicator Plugin
 
@@ -24,5 +24,6 @@ Made to be extremely lightweight only using 0.379 ms, ~5.5 KB, ~113.8
 ## License
 
 MIT License
+
 
 
