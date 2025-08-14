@@ -8,17 +8,21 @@ This plugin adds a small indicator to OBS Studio that displays a red <●> indic
 ### Features
 - Red Indicator
 - Hidden from stream
-- Lightweight (only 13KB, 0.379 ms, ~5.5 KB, ~113.8)
+- Extremely lightweight(only 13KB, 0.379 ms, ~5.5 KB, ~113.8)
 
 ### Building
 1. Drop in the folder
 2. C:\Program Files\obs-studio\obs-plugins\64bit
 3. Start OBS
 4. Enjoy
+---
+
+Made to be extremely lightweight only using 0.379 ms, ~5.5 KB, ~113.8
 
 ---
 
 ## License
 
 MIT License
+
 
